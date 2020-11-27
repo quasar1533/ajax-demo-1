@@ -1,0 +1,15 @@
+1. 使用node-dev工具,使得每次修改并保存server.js文件时会自动重启该文件。便于开发。
+----------------------------------
+2. 使用node.js模拟了一个服务器，来实现http请求与响应。server.js中的代码模拟了一个建议的服务器。    当在地址栏输入访问server.js模拟服务器的网址后，这些请求响应是由浏览器后台自动实现的。
+3. ajax方法是指使用JavaScript脚本来实现http请求。
+4. ajax方法四个标准步骤。
+----------------------------------
+5. 一个请求的onload与onerror并不能很好的适配ajax。与ajax方法配套的用于监听http请求状态的事件监听器是onreadystatechange。
+----------------------------------
+6. json是一门语言，一门标记语言。
+7. json支持六种数据类型  string、number、bool、null、object、array;
+   string只支持双引号 
+   因此JSON.parse()方法也可以解析输出六种类型的数据
+8. 解析json常配节错误处理机制try catch使用。   了解一下try catch
+   将JavaScript数据转换成符合json格式的字符串使用JSON.stringify()，规则也是同理的
+
