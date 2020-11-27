@@ -1,5 +1,9 @@
 # ajax-demo-1
 使用：
+安装node-dev
+```
+yarn global add node-dev
+```
 ```
 node server.js 8888
 ```
